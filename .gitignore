@@ -1,0 +1,9 @@
+bin
+obj
+.vs
+*.txt
+.idea
+TestResults
+.vscode
+*.psd
+tests/POM.Selenium.Tests/Pages
