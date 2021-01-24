@@ -6,7 +6,7 @@ POM Selenium is a microframework and extensible wrapper for Selenium Webdriver w
 > **🗐 Auto-Generated Pages:** create a configuration file, configure pages selectors and have your class files ready.\
 > **🙌 Extensible:** Is something missing? Expand the functionality to your need.
 ## Instalation
-This package is available through Nuget Packages: https://www.nuget.org/packages/POM.Selenium
+This package is also available through Nuget Packages: https://www.nuget.org/packages/POM.Selenium
 
 **Nuget**
 ```
