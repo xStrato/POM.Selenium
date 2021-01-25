@@ -51,7 +51,7 @@ public class Program
         Host.CreateDefaultBuilder(args)
             .ConfigureServices((hostContext, services) =>
             {
-                // Adding POM.Selenium with auto generated pages - 
+                // Adding POM.Selenium with auto generated pages - occurs once for new files
                 // this requires the first execution before being able to configure with AddPage<T>()
                 services.AddPomSelenium(autoGeneratePages:true);
                 // Setting up IWebDriver for this test
