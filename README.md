@@ -66,7 +66,7 @@ public class Program
             });
 }
 ```
-> **Folder** structure resulting:
+> Your **Folder** structure should look like this after the auto-generated pages enabled:
 ```
 [MyProject Folder]
 ├── bin
@@ -109,7 +109,7 @@ LoadElement | string |  A single element that represents visual `loading` of the
 
 Page `selectors` are only supported with **CssSelector** and **XPath** declaration, either option will be automatically detected at runtime.
 
-Here is a real world example of how it can be used (get the entire code: [examples folder](https://pages.github.com/).):
+Here is a complete and real-world example of how it can be used (get the entire code: [examples folder](https://github.com/xStrato/POM.Selenium/tree/main/examples/NugetPackageFinder)):
 > **appsettings.json** file:
 ``` json
 {
@@ -230,4 +230,23 @@ public class Worker : BackgroundService
 ````
 
 # Documentation
-W.I.P
+### Use cases - `work in progress`
+- [Create your own `Page<T>` methods](https://github.com/xStrato/POM.Selenium/wiki)
+- [Extending and customizing `selectors`](https://github.com/xStrato/POM.Selenium/wiki)
+- [Dealing with `Tables` and sets of data](https://github.com/xStrato/POM.Selenium/wiki)
+- [`Create Host Builder` for any project type](https://github.com/xStrato/POM.Selenium/wiki)
+- [Making use of `Commands` for more complex tasks](https://github.com/xStrato/POM.Selenium/wiki)
+- [Generating Pages from your `appsettings.json` file](https://github.com/xStrato/POM.Selenium/wiki)
+
+### API - `work in progress`
+- [Contract](https://github.com/xStrato/POM.Selenium/wiki)
+- [Page](https://github.com/xStrato/POM.Selenium/wiki)
+  - [PageActions](https://github.com/xStrato/POM.Selenium/wiki)
+  - [PageEvaluator](https://github.com/xStrato/POM.Selenium/wiki)
+  - [PageGetters](https://github.com/xStrato/POM.Selenium/wiki)
+  - [PageSetters](https://github.com/xStrato/POM.Selenium/wiki)
+  - [PageSupport](https://github.com/xStrato/POM.Selenium/wiki)
+- [Selector](https://github.com/xStrato/POM.Selenium/wiki)
+- [Exceptions](https://github.com/xStrato/POM.Selenium/wiki)
+
+
