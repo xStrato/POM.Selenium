@@ -6,4 +6,3 @@ obj
 TestResults
 .vscode
 *.psd
-tests/POM.Selenium.Tests/Pages
