@@ -67,7 +67,7 @@ public class Program
             });
 }
 ```
-> Your **Folder** structure should look like this after the auto-generated pages enabled:
+> Your **Folder** structure should look like this after the auto-generate pages enabled:
 ```
 [MyProject Folder]
 ├── bin
