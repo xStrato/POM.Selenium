@@ -196,7 +196,7 @@ public class Worker : BackgroundService
         .Requires() // Design by Contract
         .GoToUrl("nuget.org/packages") // Go to page itself
         .IsOnPage() // Uses "PageReference" selector for this evaluation
-        .Fulfill(); // Contract evaluation ensures that you are testing within the minimum conditions
+        .Fulfill(); // Contract evaluation ensures that you are testing with the minimum conditions
 
         var foundPackage = _packagesPage
         .SetPageValues("pom selenium") // Uses "SetFields" selectors for search input - field index can be supplied
