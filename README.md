@@ -249,5 +249,3 @@ public class Worker : BackgroundService
   - [PageSupport](https://github.com/xStrato/POM.Selenium/wiki)
 - [Selector](https://github.com/xStrato/POM.Selenium/wiki)
 - [Exceptions](https://github.com/xStrato/POM.Selenium/wiki)
-
-
